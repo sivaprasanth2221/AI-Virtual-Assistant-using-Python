@@ -40,4 +40,4 @@ Install these dependencies using pip:
 ```sh
 pip install pyttsx3 speech_recognition requests pywhatkit wikipedia scikit-learn
 ```
-**Note: Works only in Windows OS
+**Note: This project works only in Windows OS
