@@ -38,6 +38,6 @@ Das is a personal voice assistant built using Python. It can recognize and respo
 
 Install these dependencies using pip:
 ```sh
-pip install pyttsx3 speechrecognition requests pywhatkit wikipedia scikit-learn
+pip install pyttsx3 speechrecognition requests pywhatkit wikipedia scikit-learn PyAudio
 ```
 **Note: This project works only in Windows OS
