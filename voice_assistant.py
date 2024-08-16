@@ -96,7 +96,7 @@ if __name__ == '__main__':
     wish()
     while True:
         query=recognize()
-        if 'bye' or 'goodbye' or 'exit' in query:
+        if 'bye' in query or 'goodbye' in query or 'exit' in query:
             print("Thank You. Have a good day")
             speak('Thank You. Have a good day')
             break
