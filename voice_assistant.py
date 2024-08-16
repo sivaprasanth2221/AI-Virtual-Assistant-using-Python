@@ -96,6 +96,10 @@ if __name__ == '__main__':
     wish()
     while True:
         query=recognize()
+        if 'bye' or 'goodbye' or 'exit' in query:
+            print("Thank You. Have a good day")
+            speak('Thank You. Have a good day')
+            break
         # To open apps:
         if 'notepad' in query:
             path = 'C:\WINDOWS\system32\\notepad.exe'
